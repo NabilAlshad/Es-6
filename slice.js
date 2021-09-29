@@ -1,3 +1,5 @@
+//slice(start,end);
+
 // the first value will slice from right side of this array and the second value of slice will be count from the left side ...expected value will be [4]
 const arr = [1, 2, 3, 4];
 const result = arr.slice(-1, 4);
