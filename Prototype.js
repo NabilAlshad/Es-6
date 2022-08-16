@@ -6,10 +6,10 @@
 // console.log(a.name);
 
 function Person(name, age) {
-  //   const person = Object.create(Person.prototype);
+  //   const this = Object.create(Person.prototype);
   this.name = name;
   this.age = age;
-  //   return person;
+  //   return this;
 }
 Person.prototype = {
   eat() {
